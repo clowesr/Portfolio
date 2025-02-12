@@ -1,7 +1,7 @@
 # My CV
 
 ## Education
-![Histogram](assets/snow.jpg
+![Histogram](assets/Snow.jpg
 
 ## Work Experience 
 
