@@ -7,7 +7,7 @@
 ![Histogram](assets/Snow.jpg)
 
 ## Work Experience
-**British Gas**: Data Scienctist, 15 Years
+**British Gas**: Data Scientist, 15 Years
   - Resource Planning, Forecasting
 
 ## Skills
