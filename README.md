@@ -11,3 +11,5 @@
   - Resource Planning, Forecasting
 
 ## Skills
+
+## Personal
