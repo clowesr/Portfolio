@@ -158,3 +158,6 @@ The process of analysing the data found some interesting insights which can be u
 
 While the clustering was based on age and salary bandings, I believe there could be some interesting insight into the types of products different demographics purchase and the data separates into purchases such as wine or meat products which could be used to specifically target people. The analysis could also support how certain demographics are targeted such as the silent generation being introduced to online shopping. It would be useful to try and interrogate the in store shopping vs online shopping to see if there’s any trends with how people shop based on their age and salary banding.
 
+# Fabric Notebook Cells Found here
+
+Click Here
