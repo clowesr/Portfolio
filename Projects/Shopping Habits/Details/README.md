@@ -34,3 +34,8 @@ The file was downloaded and then uploaded to the gen2 dataflow as a CSV
 The headers are promoted and the data types selected then the columns not needed are removed
 
 ![Engineering 2](https://github.com/clowesr/Portfolio/blob/3fe8c7cb8250eed481c2d786f699f49dede2cbf4/Projects/Shopping%20Habits/Details/Data%20Engineering%202.png)
+
+Checking the columns for year of birth and salary, i was able to find null values and remove from the data
+
+![Engineering 3](https://github.com/clowesr/Portfolio/blob/3fe8c7cb8250eed481c2d786f699f49dede2cbf4/Projects/Shopping%20Habits/Details/Data%20Engineering%202.png)
+
