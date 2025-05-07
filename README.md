@@ -4,10 +4,11 @@
 This portfolio aims to provide a map of my journey in becoming a qualified data scientist. This will help me organise and share my knowledge across various subjects.
 
 
-## Work Experience
-**British Gas**: Data Scientist, 15 Years
-  - Resource Planning, Forecasting
+## Projects
 
-## Skills
+### Machine Learning
+| Project Name | Description | Date |
+| ------------- |:-------------:|:-------------:|
+| **[Weather Impacts on customer demand](https://github.com/jampirojam/it-management-and-audit-source/tree/main)** | This project aims to identify any correlation between weather and customer demand. Using multiple linear regression to confirm the relationship with average temperatures and average rainfall across the United Kingdom | 07 May 2025
+| **[Online Shopping Habits](https://github.com/jampirojam/it-management-and-audit-source/tree/main)** | This project looks at the online spending habits of consumers using a k means cluster algorithm. It will explore the insights of spending based on customer demographics and salary bandings | 07 May 2025
 
-## Personal
