@@ -30,4 +30,7 @@ The file was downloaded and then uploaded to the gen2 dataflow as a CSV
 
 ![Engineering 1](https://github.com/clowesr/Portfolio/blob/f1c4dfb00c23a7af734bf5aaa0752a0d8dc1fa23/Projects/Shopping%20Habits/Details/Data%20Engineering%201.png)
 
-## 2. Format the data by creating headers and removing the columns not needed
+## 2. Format the data
+The headers are promoted and the data types selected then the columns not needed are removed
+
+![Engineering 2](https://github.com/clowesr/Portfolio/blob/3fe8c7cb8250eed481c2d786f699f49dede2cbf4/Projects/Shopping%20Habits/Details/Data%20Engineering%202.png)
