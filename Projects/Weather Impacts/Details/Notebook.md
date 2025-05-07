@@ -113,3 +113,33 @@ print(combined_df.describe())
 ## Drop the second date column from combining
 ```combined_df = combined_df.drop(columns=['Date'])```
 
+## create a correlation matrix to ensure no multicollinearity
+
+```plt.figure(figsize=(10, 8))
+sns.heatmap(combined_df.corr(), annot=True, cmap='coolwarm')
+plt.title("Correlation Matrix")
+plt.show()
+```
+
+## plot a histogram for each data columns and scatter charts comparing 2 of the datasets
+
+```sns.pairplot(combined_df)
+plt.show()
+```
+
+## Build the regression model including splitting the data between test and train. This also includes printing the summary
+
+```X = combined_df.drop('Jobs', axis=1)
+y = combined_df['Jobs']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+import statsmodels.api as sm
+
+# Add intercept
+X_train_sm = sm.add_constant(X_train)
+
+# Fit OLS model
+model = sm.OLS(y_train, X_train_sm).fit()
+
+# Summary includes t-tests, p-values, CI
+print(model.summary())
+```
