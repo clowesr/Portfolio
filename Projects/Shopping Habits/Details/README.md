@@ -161,3 +161,7 @@ While the clustering was based on age and salary bandings, I believe there could
 # Fabric Notebook Cells Found here
 
 [Click Here](https://github.com/clowesr/Portfolio/blob/e15d64f7271609963bc60a2cace789447c37b651/Projects/Shopping%20Habits/Details/Notebook.md)
+
+# Raw Data found here in CSV form
+
+[Click Here]
