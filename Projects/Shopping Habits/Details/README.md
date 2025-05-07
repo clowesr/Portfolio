@@ -118,3 +118,43 @@ This a histogram showing the distribution of data points for the salary bandings
 To investigate the tail shown in the histogram, a scatter chart was produced which clearly shows an outlier of a salary above 600k and some around the 150k mark so these have been removed due to the k mean algorithm being sensitive to outliers. 
 
 ![EDA8](https://github.com/clowesr/Portfolio/blob/fe5218aa500dcba424d090f7ac085a2279fd601f/Projects/Shopping%20Habits/Details/EDA8.png)
+
+
+Once the main outliers were removed it shows a clear linear correlation between salary and total spend suggesting the more you earn, the more you would spend online. All the outliers haven’t been removed to avoid overfitting of the data
+
+![EDA9](https://github.com/clowesr/Portfolio/blob/fe5218aa500dcba424d090f7ac085a2279fd601f/Projects/Shopping%20Habits/Details/EDA9.png)
+
+
+Now the data is clean and ready for the k means algorithm, the k or amount of clusters required needs identifying. This can be achieved by using the elbow method. When the below starts to level out is the figure that we’re interested in and that happens on the “4” point therefore the algorithm will be coded with four clusters
+
+![EDA10](https://github.com/clowesr/Portfolio/blob/fe5218aa500dcba424d090f7ac085a2279fd601f/Projects/Shopping%20Habits/Details/EDA10.png)
+
+
+# K Means Analysis
+
+Once the data is cleaned and the number of clusters has been identified, the algorithm can be ran using the python code shown below. You can see the clusters set to 4 within the cell. The k-means++ package completes the full process without the need to run the algorithm multiple times. The manual process would involve running the algorithm, assigning the centroids and then rerunning until the centroids no longer significantly move. This method will loop through that process with a maximum iteration of 300, and conclude when the centroids no longer significantly move.
+
+![Kmean1](https://github.com/clowesr/Portfolio/blob/fe5218aa500dcba424d090f7ac085a2279fd601f/Projects/Shopping%20Habits/Details/Kmean1.png)
+
+
+Once completed, a check on how many data points have been assigned to each cluster and its fairly consistent across all 4 centroids.
+
+![Kmean2](https://github.com/clowesr/Portfolio/blob/fe5218aa500dcba424d090f7ac085a2279fd601f/Projects/Shopping%20Habits/Details/Kmean2.png)
+
+
+Finally the visual displays each data point, coloured by the assigned cluster with the centroids marked in the using an “X”. As you can see, there’s still a number of data points that would be considered outliers but you risk over fitting so remained.
+
+![Kmean3](https://github.com/clowesr/Portfolio/blob/fe5218aa500dcba424d090f7ac085a2279fd601f/Projects/Shopping%20Habits/Details/Kmean3.png)
+
+
+# Conclusion
+
+The process of analysing the data found some interesting insights which can be used to market certain demographics in a specific way.
+-	Generation X age group has the highest number of purchases but actually has the lowest average spend.
+- Middle and Upper middle income individuals have the highest number of purchases with the upper middle income having a significantly higher average spend than the other salary categories. 
+-	The silent generation contributes the lowest online purchases but have the highest average spend when they purchase.
+-	The optimal number of clusters to use in the model was found to be four using the elbow method. 
+-	The silhouette score was 0.537 indicating the clusters are well separated and cohesive. (Ankita, 2025)
+
+While the clustering was based on age and salary bandings, I believe there could be some interesting insight into the types of products different demographics purchase and the data separates into purchases such as wine or meat products which could be used to specifically target people. The analysis could also support how certain demographics are targeted such as the silent generation being introduced to online shopping. It would be useful to try and interrogate the in store shopping vs online shopping to see if there’s any trends with how people shop based on their age and salary banding.
+
