@@ -131,3 +131,11 @@ This analysis provides a solid foundation for ongoing discussions within the bus
 ## The notebook used for the regression model can be found here
 
 [Click here](https://github.com/clowesr/Portfolio/blob/8bbcb0eb5e3d32edbd663a7cb7bb297865f3fe3b/Projects/Weather%20Impacts/Details/Notebook.md)
+
+## The data used in this analysis can be found below 
+
+[Average Rainfall 1](https://www.metoffice.gov.uk/hadobs/hadukp/data/daily/HadEWP_daily_totals.txt)
+
+[Average Rainfall 2](https://www.metoffice.gov.uk/hadobs/hadukp/data/daily/HadSP_daily_totals.txt)
+
+[Temperature](https://www.metoffice.gov.uk/hadobs/hadcet/data/meantemp_daily_totals.txt)
