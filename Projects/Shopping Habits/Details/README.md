@@ -25,3 +25,4 @@ Based on the insight produced using the data there’s some clear conclusions th
 
 The dataset was sourced from Kaggle and downloaded to CSV form. Utilising the Microsoft gen 2 data flows I was able in ingest the data into a central lakehouse ready to connect to a python notebook for EDA and analysis. The benefits of using a gen2 data flow is that I can load, transform, and specify the destination of the query output, all within one tool.
 
+![Data Engineering 1]
