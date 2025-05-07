@@ -127,3 +127,7 @@ When looking at the rainfall, the t value of 0.409 showing a weak impact and a p
 ## Conclusion 
 In conclusion, based on the multiple linear regression and the results of the t-test, we can determine that the null hypothesis—that temperature has no impact on jobs—is rejected, and the alternative is accepted. However, this does not fully conclude the analysis. While temperature does show some influence, the correlation results indicate that there may be other, more significant factors affecting the variance in job volumes, which will require further investigation. Regarding average rainfall, although the business initially suggested a direct influence on job volumes, the analysis confirms no statistical impact, and we therefore accept the null hypothesis.
 This analysis provides a solid foundation for ongoing discussions within the business and supports our goal of identifying meaningful drivers behind customer demand (jobs). I would suggest trying relationships between different job types as well as exploring another regression including t-test on marketing to see if that influences.
+
+## The notebook used for the regression model can be found here
+
+[Click here](https://github.com/clowesr/Portfolio/blob/8bbcb0eb5e3d32edbd663a7cb7bb297865f3fe3b/Projects/Weather%20Impacts/Details/Notebook.md)
