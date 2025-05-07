@@ -1,10 +1,8 @@
 # Rob Clowes- Data Science Portfolio
 
 ## About
-- **BPP**: Level 6, data science, 2024
+- **This portfolio aims to provide a map of my journey in becoming a qualified data scientist. This will help me organise and share my knowledge across various subjects.
 - **Secondary School**: GCSE A-C, 
-
-![Histogram](assets/Snow.jpg)
 
 ## Work Experience
 **British Gas**: Data Scientist, 15 Years
