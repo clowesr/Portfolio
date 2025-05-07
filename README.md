@@ -1,6 +1,6 @@
-# My CV
+# Rob Clowes- Data Science Portfolio
 
-## Education
+## About
 - **BPP**: Level 6, data science, 2024
 - **Secondary School**: GCSE A-C, 
 
